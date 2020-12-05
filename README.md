@@ -1,5 +1,5 @@
 # covered-call-options-finder
-Finds calls that offer the higher premiums, which will offer the highest returns on covered calls. In its basic form it web scrapes the prices of all the stocks on the S&P 500, and then looks at each stocks call options. It then gets the strike price nearest to the current stock price, and gets the call price. It then stores the return it offers if a covered call was employed. Then at the end you can query the data frame for stocks that offer the return you want. 
+Finds calls that offer the highest premiums, which offer the highest returns on covered calls. In its basic form it web scrapes the prices of all the stocks on the S&P 500, and then looks at each stocks call options. It then gets the strike price nearest to the current stock price, and gets the call price. It then stores the return it offers if a covered call was employed. Then at the end you can query the data frame for stocks that offer the return you want. 
 
 Incoming upates, i will create a UI, which will make it simple for non coders to use. Additionally, currently it does not show the date the option will expire on. Some stocks only have monthly calls, while other have weeklies, so ill add the options' dates to the dataframe. 
 
